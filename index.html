@@ -1,0 +1,139 @@
+TML, CSS y JavaScript para la Landing Page:
+html
+Copiar código
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ofrecemos servicios de diseño creativo para impulsar tu marca.">
+    <title>Servicios de Diseño</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #2D2D2D;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .services {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .service-box {
+            background-color: white;
+            padding: 20px;
+            margin: 20px;
+            width: 30%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-box h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .service-box p {
+            font-size: 16px;
+            color: #777;
+        }
+
+        .cta {
+            background-color: #28a745;
+            color: white;
+            padding: 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 18px;
+            display: inline-block;
+            margin-top: 20px;
+        }
+
+        .cta:hover {
+            background-color: #218838;
+        }
+
+        footer {
+            background-color: #2D2D2D;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .services {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .service-box {
+                width: 80%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Servicios de Diseño Creativo</h1>
+        <p>Impulsa tu marca con un diseño único y profesional</p>
+    </header>
+
+    <section>
+        <div class="container">
+            <h2>Lo que ofrezco:</h2>
+            <div class="services">
+                <div class="service-box">
+                    <h2>Diseño Gráfico</h2>
+                    <p>Creamos diseños atractivos para tu marca, desde logotipos hasta material publicitario.</p>
+                </div>
+                <div class="service-box">
+                    <h2>Diseño Web</h2>
+                    <p>Diseños de sitios web responsivos y modernos que mejoran la experiencia del usuario.</p>
+                </div>
+                <div class="service-box">
+                    <h2>Branding</h2>
+                    <p>Desarrollamos tu identidad visual con colores, tipografías y logotipos que comuniquen tu mensaje.</p>
+                </div>
+            </div>
+            <a href="mailto:tucorreo@dominio.com" class="cta">¡Contáctame ahora!</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Diseño Creativo | Todos los derechos reservados.</p>
+    </footer>
+
+    <script>
+        // Aquí puedes agregar interacciones adicionales si lo deseas, como un formulario o mensajes emergentes.
+    </script>
+
+</body>
+</html>
